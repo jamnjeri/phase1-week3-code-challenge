@@ -1,3 +1,13 @@
+:root {
+    --colorone: #66666e;
+    --colorTwo: #9999a1;
+    --colorThree: #49b6ff;
+    --colorFour: #bde0fe;
+    --colorFive: #a2d2ff;
+    --colorSix: #ffffff;
+    --colorSeven: #111111;
+  }
+
 header {
     text-align: center;
     background-color: rgb(0, 140, 255);

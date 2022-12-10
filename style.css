@@ -13,3 +13,7 @@
     background-color: rgb(0, 140, 255);
     padding: 3px;
 } */
+
+body{
+    background: var(--colorTwo);
+}

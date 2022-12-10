@@ -5,15 +5,43 @@
     --colorFour: #bde0fe;
     --colorFive: #a2d2ff;
     --colorSix: #ffffff;
-    --colorSeven: #111111;
+    --colorSeven: #252525;
+    --colorEight: #353535;
   }
 
-/* header {
-    text-align: center;
-    background-color: rgb(0, 140, 255);
+header {
+    text-align: left;
+    background-color: var(--colorEight);
+    color: var(--colorSix);
     padding: 3px;
+}
+
+/* body{
+    
 } */
 
-body{
-    background: var(--colorTwo);
+.background-image {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.background-image::before {
+    content: "";
+    background-image: url("/moviebackground.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+/* 
+.background-Image {
+    opacity: 0.5;
+} */

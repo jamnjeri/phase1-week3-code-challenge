@@ -60,19 +60,24 @@ function addFirstMovieDescriptionFunc(films){
     parentContent.appendChild(description)
 }
 function addFirstMovieTicketData(films){
+    //Add Capcaity Data
     let parentContent = document.querySelector('#capacity')
-    console.log(parentContent)
+    //console.log(parentContent)
     parentContent.innerText= `Capacity: ${films[0].capacity}`
 
+    //Add run-time data
     let parentContentTwo = document.querySelector('#run-time')
     parentContentTwo.innerText= `Run Time: ${films[0].runtime} minutes`
 
+    //Add ShowTime data
     let parentContentThree = document.querySelector('#show-time')
     parentContentThree.innerText= `Show Time: ${films[0].showtime}`
 
+    //Add Tickets-sold data
     let parentContentFour = document.querySelector('#tickets-sold')
     parentContentFour.innerText= `Tickets Sold: ${films[0].tickets_sold}`
 
+    //Add Available tickets data
     let parentContentFive = document.querySelector('#available-tickets')
     let capacityValue = films[0].capacity
     let ticketsSoldValue = films[0].tickets_sold

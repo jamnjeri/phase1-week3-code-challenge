@@ -110,8 +110,8 @@ li {
 }
 
 #poster {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     justify-content: center;
 }
 
@@ -124,7 +124,8 @@ li {
     margin-top: 10px;
     border-radius: 20px;
 }
-#description {
+
+.alignment {
     margin-top: 5px;
     margin-left: 250px;
     padding: 10px;

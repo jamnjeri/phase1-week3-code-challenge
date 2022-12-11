@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[338],{1086:function(e){e.exports=JSON.parse('{"title":"Change Case","tippy":"","buttons":[{"label":"abc","value":"lower"},{"label":"Abc","value":"title"},{"label":"ABC","value":"upper"}]}')}}]);

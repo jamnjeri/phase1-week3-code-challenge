@@ -7,13 +7,20 @@
     --colorSix: #ffffff;
     --colorSeven: #252525;
     --colorEight: #353535;
-  }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', sans-serif;
+}
 
 header {
     text-align: center;
     background-color: var(--colorTwo);
     color: var(--colorSix);
-    padding: 5px;
+    padding: 3px;
 }
 
 /* body{

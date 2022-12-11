@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[349],{1097:function(o){o.exports=JSON.parse('{"set_to_wordmark":"Set to Business Name Font","set_to_slogan":"Set to Slogan Font"}')}}]);

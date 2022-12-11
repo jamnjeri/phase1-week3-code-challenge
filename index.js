@@ -10,7 +10,8 @@ let films = fetch(url)
         let films =response
         // console.log(films);
         
-        addFirstImageFunc(films)
+        addFirstMovieTitleFunc(films)
+        addFirstMoviePosterFunc(films)
 
         for (film of films){
             // console.log(film.title);
@@ -31,11 +32,20 @@ function createElementFunc(films){
     parentContent.appendChild(list)
 }
 
-function addFirstImageFunc(films){
-    console.log(films[0])
+function addFirstMovieTitleFunc(films){
+    //console.log(films[0])
     //Grab where you want to add the content
     let parentContent = document.querySelector('.movie-title')
-    console.log(parentContent)
+    //console.log(parentContent)
     //Add the title to the header container
     parentContent.innerText=`${films[0].title}`
+}
+
+function addFirstMoviePosterFunc(films){
+    //console.log(films[0].poster)
+    let image = document.createElement('img')
+    image.src = `${films[0].poster}`
+    let parentContent = document.querySelector('#poster')
+    console.log(parentContent)
+    parentContent.appendChild(image)
 }

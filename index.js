@@ -9,6 +9,8 @@ let films = fetch(url)
     .then((response) => {
         let films =response
         // console.log(films);
+        
+        addFirstImageFunc(films)
 
         for (film of films){
             // console.log(film.title);
@@ -27,4 +29,13 @@ function createElementFunc(films){
 
     //Add the element
     parentContent.appendChild(list)
+}
+
+function addFirstImageFunc(films){
+    console.log(films[0])
+    //Grab where you want to add the content
+    let parentContent = document.querySelector('.movie-title')
+    console.log(parentContent)
+    //Add the title to the header container
+    parentContent.innerText=`${films[0].title}`
 }

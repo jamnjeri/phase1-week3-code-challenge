@@ -89,3 +89,22 @@ li {
     list-style: circle;
     margin-top: 30px;
 }
+
+.display-area {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-right: 75px;
+    background-color: var(--colorFour);
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 800px;
+    justify-content: center;
+    padding: 30px;
+    width: auto;
+}
+
+.movie-title {
+    text-align: center;
+}

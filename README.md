@@ -46,6 +46,11 @@ Extra Bonus Deliverables:
 * Add a delete button next to each film that when clicked, deletes the film from the list as well as the server. 
 
 ### Conclusion
+* The code-challenge deliverables were met up until the Bonus Deliverables. 
+* This means that on loading the page, the movie menu is displayed to the user which they can scroll through selecting each movie title to see further information.
+* On top of this they are able to buy tickets for whichever movie they want.
+* Unfortunately, the final css design was still not to my liking but for this code challenge, the functionality was more important than it's appearance.
+* The Bonus deliverables were also executed and the Extra Bonus Deliverables also attempted.
 
 ### Languages used to create this project
 * HTML,

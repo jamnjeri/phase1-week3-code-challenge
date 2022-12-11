@@ -54,7 +54,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 225px;
+    width: 250px;
     height: 100%;
     padding: 20px 0;
     transition: all 0.5s ease;
@@ -66,4 +66,26 @@ header {
     /* margin: 10px 0 5px; */
     text-align: center;
     margin-top: 100px;
+}
+
+.titles-list {
+    color: var(--colorSix);
+    list-style-type: none;
+    padding-left: 30px;
+    position: relative;
+}
+
+.titles-list::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+li {
+    list-style: circle;
+    margin-top: 30px;
 }

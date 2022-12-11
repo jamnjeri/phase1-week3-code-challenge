@@ -12,6 +12,7 @@ let films = fetch(url)
         
         addFirstMovieTitleFunc(films)
         addFirstMoviePosterFunc(films)
+        addFirstMovieDescriptionFunc(films)
 
         for (film of films){
             // console.log(film.title);
@@ -46,6 +47,14 @@ function addFirstMoviePosterFunc(films){
     let image = document.createElement('img')
     image.src = `${films[0].poster}`
     let parentContent = document.querySelector('#poster')
-    console.log(parentContent)
+    //console.log(parentContent)
     parentContent.appendChild(image)
+}
+
+function addFirstMovieDescriptionFunc(films){
+    let description = document.createElement('p')
+    description.textContent = `${films[0].description}`
+    let parentContent = document.querySelector('#description')
+    console.log(parentContent)
+    parentContent.appendChild(description)
 }

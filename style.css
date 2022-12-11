@@ -10,17 +10,17 @@
   }
 
 header {
-    text-align: left;
-    background-color: var(--colorEight);
+    text-align: center;
+    background-color: var(--colorTwo);
     color: var(--colorSix);
-    padding: 3px;
+    padding: 5px;
 }
 
 /* body{
     
 } */
 
-.background-image {
+/* .background-image {
     position: relative;
     height: 100vh;
     width: 100%;
@@ -40,8 +40,16 @@ header {
     bottom: 0px;
     left: 0px;
     opacity: 0.75;
-}
-/* 
-.background-Image {
-    opacity: 0.5;
 } */
+
+.wrapper .movie-menu{
+    background-color: var(--colorTwo);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+
+}

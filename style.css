@@ -20,7 +20,7 @@ header {
     text-align: center;
     background-color: var(--colorTwo);
     color: var(--colorSix);
-    padding: 3px;
+    padding: 20px;
 }
 
 /* body{
@@ -59,4 +59,11 @@ header {
     padding: 20px 0;
     transition: all 0.5s ease;
 
+}
+
+.movie-menu .menu {
+    color: var(--colorSix);
+    /* margin: 10px 0 5px; */
+    text-align: center;
+    margin-top: 100px;
 }

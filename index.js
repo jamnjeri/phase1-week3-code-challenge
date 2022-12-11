@@ -13,6 +13,7 @@ let films = fetch(url)
         addFirstMovieTitleFunc(films)
         addFirstMoviePosterFunc(films)
         addFirstMovieDescriptionFunc(films)
+        addFirstMovieTicketData(films)
 
         for (film of films){
             // console.log(film.title);
@@ -55,6 +56,26 @@ function addFirstMovieDescriptionFunc(films){
     let description = document.createElement('p')
     description.textContent = `${films[0].description}`
     let parentContent = document.querySelector('#description')
-    console.log(parentContent)
+    //console.log(parentContent)
     parentContent.appendChild(description)
+}
+function addFirstMovieTicketData(films){
+    let parentContent = document.querySelector('#capacity')
+    console.log(parentContent)
+    parentContent.innerText= `Capacity: ${films[0].capacity}`
+
+    let parentContentTwo = document.querySelector('#run-time')
+    parentContentTwo.innerText= `Run Time: ${films[0].runtime} minutes`
+
+    let parentContentThree = document.querySelector('#show-time')
+    parentContentThree.innerText= `Show Time: ${films[0].showtime}`
+
+    let parentContentFour = document.querySelector('#tickets-sold')
+    parentContentFour.innerText= `Tickets Sold: ${films[0].tickets_sold}`
+
+    let parentContentFive = document.querySelector('#available-tickets')
+    let capacityValue = films[0].capacity
+    let ticketsSoldValue = films[0].tickets_sold
+    let availableTickets = capacityValue - ticketsSoldValue;
+    parentContentFive.innerText= `Available Tickets: ${availableTickets}`
 }

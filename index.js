@@ -26,7 +26,7 @@ function createElementFunc(films){
     //Create the new element
     let list = document.createElement('button')
     list.className = `Title${film.id}`
-    list.id = `${film.id}`
+    list.id = `Buttons`
     list.innerText = film.title
 
     //Get where you want to place them
@@ -202,7 +202,7 @@ function addEventListenerToTitle(film){
 
         let newAvailableTicketsNumber = document.querySelector('#tickets-left')
         newAvailableTicketsNumber.innerText = `${availableTickets}`
-        console.log(newAvailableTicketsNumber);
+        //console.log(newAvailableTicketsNumber);
 
     })
     //console.log(titleOne);

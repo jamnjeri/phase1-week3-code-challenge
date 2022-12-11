@@ -1,12 +1,11 @@
 :root {
-    --colorone: #66666e;
-    --colorTwo: #9999a1;
-    --colorThree: #49b6ff;
+    --colorone: #cdb4db;
+    --colorTwo: #ffc8dd;
+    --colorThree: #ffafcc;
     --colorFour: #bde0fe;
     --colorFive: #a2d2ff;
     --colorSix: #ffffff;
-    --colorSeven: #252525;
-    --colorEight: #353535;
+    --colorSeven: #111111;
 }
 
 * {
@@ -54,7 +53,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 250px;
+    width: 300px;
     height: 100%;
     padding: 20px 0;
     transition: all 0.5s ease;
@@ -94,12 +93,12 @@ li {
     max-width: 90%;
     margin: 0 auto;
     margin-left: 350px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 75px;
     background-color: var(--colorThree);
     border-radius: 20px;
     box-sizing: border-box;
-    height: 815px;
+    height: 860px;
     justify-content: center;
     padding: 30px;
     width: auto;
@@ -118,11 +117,13 @@ li {
 #poster img{
     max-width: 100%;
     max-height: 100%;
+    color: var(--colorFive);
     margin:auto;
     display: block;
     margin-left: 550px;
     margin-top: 10px;
     border-radius: 20px;
+   
 }
 
 .alignment {
@@ -147,7 +148,7 @@ li {
 } */
 
 .buy-ticket-button {
-    background-color: var(--colorThree);
+    background-color: var(--colorFive);
     border-radius: 12px;
     cursor: pointer;
     font-size: 18px;
@@ -155,4 +156,14 @@ li {
     margin-left: 900px;
     text-align: center;
     width: 100px;
+}
+
+#Buttons {
+    background-color: var(--colorThree);
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+    height: 40px;
+    width: 250px;
 }

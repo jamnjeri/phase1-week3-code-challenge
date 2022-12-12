@@ -2,7 +2,7 @@
 ==========================
 
 ## DESCRIPTION
-**Flatdango Movie Theater** is a mini web application that allows a user to purchase movie tickets from the theater. 
+**Flatdango Movie Theater** is a mini web application that allows a user to browse throught the available movie options and purchase movie tickets from the theater. 
 
 ## REQUIREMENTS
 ### Prerequisites

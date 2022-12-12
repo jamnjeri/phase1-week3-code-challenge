@@ -144,6 +144,17 @@ function ticketButton(films){
             let updatedValue = document.querySelector('.available-value')
             updatedValue.innerHTML= `${newTicketNumber}`
             //console.log(updatedValue);
+            
+            //Grab the Tickets Sold Value
+            let oldTicketsSold = document.querySelector('#tickets-Sold').innerText
+
+            //add plus the no. of new tickets bought
+            let newTicketsSoldValue = parseInt(oldTicketsSold) + parseInt(count);
+
+            //Add the new number to the display
+            let updatedTicketsSold = document.querySelector('#tickets-Sold')
+            updatedTicketsSold.innerHTML= `${newTicketsSoldValue}`
+            console.log(updatedTicketsSold)
         }
 
         //console.log(`Pressed: ${count} times`);
